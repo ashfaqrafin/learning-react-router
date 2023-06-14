@@ -7,6 +7,7 @@ const App = () => {
     <BrowserRouter>
       <header>
         <nav>
+          <h1>React-router</h1>
           <NavLink to="/">Home</NavLink>
           <NavLink to="about">About</NavLink>
         </nav>
