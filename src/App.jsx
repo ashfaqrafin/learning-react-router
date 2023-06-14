@@ -20,16 +20,7 @@ const router = createBrowserRouter(
 );
 
 const App = () => {
-  return (
-    // <header>
-    //   <nav>
-    //     <h1>React-router</h1>
-    //     <NavLink to="/">Home</NavLink>
-    //     <NavLink to="about">About</NavLink>
-    //   </nav>
-    // </header>
-    <RouterProvider router={router} />
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;
