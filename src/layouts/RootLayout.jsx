@@ -10,6 +10,8 @@ export default function RootLayout() {
           <NavLink to="/">Home</NavLink>
           {/* NavLink for active class */}
           <NavLink to="about">about</NavLink>
+          <NavLink to="help">help</NavLink>
+          <NavLink to="careers">careers</NavLink>
         </nav>
       </header>
       <main>
